@@ -34,7 +34,7 @@ export async function getStaticProps(context) {
   return {
     props: {
       meetupData : {
-        image="https://ychef.files.bbci.co.uk/976x549/p07zy3y6.jpg",
+        image:"https://ychef.files.bbci.co.uk/976x549/p07zy3y6.jpg",
         id : "m1",
         title="First Meetup",
         address="Cairo, Egypt",
