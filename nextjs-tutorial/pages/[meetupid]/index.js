@@ -14,7 +14,7 @@ function MeetupDetails() {
 export async function getStaticPaths(){
   return {
 
-    fallback: false, // false means that i have provided all the supported paths
+    fallback: "blocking", // false means that i have provided all the supported paths
     // this also can be fetched by an Api or database
     paths: [
       {params: {meetupId: 'm1'}},
